@@ -1,10 +1,10 @@
 interface test
-{
+{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 void display();
 }
-class demo{
+class demo implements test{
 
-void display()
+public void display()
 {
 System.out.println("java prg");
 }
